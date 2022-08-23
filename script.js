@@ -12,12 +12,14 @@ console.log('textageAsN', textageAsN);
 if (textageAsN < 18) {
     //applicare discount del 20% ai minorenni
 
-    const calckmtot = calckm - 20 % ;
+    const calckmtot = (calckm - 20 %);
+    document.getElementById('train_id').innerHTML = calckmtot;
 
 } else if (textageAsN > 65) {
     //applicare discount del 40% ai maggiori di 65 anni
 
-    const calckmtot = calckm - 40 % ;
+    const calckmtot = (calckm - 40 %);
+    document.getElementById('train_id').innerHTML = calckmtot;
 }
 
 
